@@ -17,8 +17,7 @@
     "test-watch": "npm run testonly -- --watch --watch-extensions js",
     "start": "start-storybook -p 9010",
     "publish-storybook": "bash .scripts/publish_storybook.sh",
-    "postpublish": "npm run publish-storybook",
-    "prepare": "npm run build"
+    "postpublish": "npm run publish-storybook"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.35.3",
